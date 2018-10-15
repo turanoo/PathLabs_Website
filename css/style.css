@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #03C4EB;
+  color: #F38F8F;
   transition: 0.5s;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
+  background: #F38F8F;
   color: #fff;
 }
 
@@ -162,8 +162,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #F38F8F;
+  border: 2px solid #F38F8F;
   color: #fff;
 }
 
@@ -179,8 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #F38F8F;
+  border: 2px solid #F38F8F;
 }
 
 /*--------------------------------------------------------------
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #F38F8F;
 }
 
 .nav-menu ul {
@@ -426,11 +426,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03C4EB;
+  color: #F38F8F;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03C4EB;
+  color: #F38F8F;
 }
 
 #mobile-body-overly {
@@ -470,6 +470,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
 }
 
+.section-subtitle {
+  font-size: 24px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
 .section-description {
   text-align: center;
   margin-bottom: 40px;
@@ -478,7 +486,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #F38F8F;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -541,11 +549,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #F38F8F;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #F38F8F;
 }
 
 #services .service-icon i {
@@ -558,7 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #F38F8F;
 }
 
 #services .service-title {
@@ -616,8 +624,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #F38F8F;
+  border: 2px solid #F38F8F;
 }
 
 /* Portfolio Section
@@ -677,64 +685,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
-/* Testimonials Section
+/* Design Section
 --------------------------------*/
 #design {
   background: #f6f6f6;
   padding: 80px 0;
 }
 
-#design .profile {
-  text-align: center;
+#design .flowchart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
 }
 
-#design .profile .pic {
-  border-radius: 50%;
-  border: 6px solid #fff;
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-  width: 260px;
-}
 
-#design .profile .pic img {
-  max-width: 100%;
-}
-
-#design .profile h4 {
-  font-weight: 700;
-  color: #03C4EB;
-  margin-bottom: 5px;
-}
-
-#design .profile span {
-  color: #333333;
-}
-
-#design .quote {
-  position: relative;
+/* Documentation Section
+--------------------------------*/
+#documentation {
   background: #fff;
-  padding: 60px;
-  margin-top: 40px;
-  font-size: 16px;
-  font-style: italic;
-  border-radius: 5px;
+  padding: 80px 0;
 }
 
-#design .quote b {
-  display: inline-block;
-  font-size: 22px;
-  left: -9px;
-  position: relative;
-  top: -8px;
-}
-
-#design .quote small {
-  display: inline-block;
-  right: -9px;
-  position: relative;
-  top: 4px;
-}
 
 /* Team Section
 --------------------------------*/
@@ -778,7 +751,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #F38F8F;
 }
 
 #team .member .social i {
@@ -799,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #F38F8F;
   float: left;
 }
 
@@ -809,8 +782,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
-  border: 1px solid #03C4EB;
+  color: #F38F8F;
+  border: 1px solid #F38F8F;
   display: none;
   text-align: center;
   padding: 15px;
@@ -846,7 +819,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #F38F8F;
   border: 0;
   padding: 10px 24px;
   color: #fff;
