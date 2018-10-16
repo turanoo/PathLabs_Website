@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #home h2 {
   color: #999;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -520,6 +520,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
 }
 
+#about .about-content:last-child {
+  margin-top:55px
+}
+
 #about .about-title {
   color: #333;
   font-weight: 700;
@@ -532,7 +536,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-text:last-child {
-  margin-bottom: 0;
+  margin-bottom: 50px;
+}
+
+#about .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 200px;
+}
+
+#about .member .pic img {
+  max-width: 100%;
+}
+
+#about .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#about .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
 }
 
 /* Services Section

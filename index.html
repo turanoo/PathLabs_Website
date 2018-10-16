@@ -55,6 +55,7 @@
         </div>
 
         <h1>Primacy</h1>
+        <h2>GUI for Massively Demultiplexed Pathogen Detection </h2>
         <h2><span class="rotating">Cross-Platform, Easy-to-use, Clean Interface</span></h2>
         <div class="actions">
           <a href="#about" class="btn-get-started">Learn More</a>
@@ -110,25 +111,33 @@
 
 
         <div class="col-md-12 about-content">
-          <!-- <h2 class="about-title">What's Massively Demultiplexed Pathogen Detection? </h2> -->
+          <h2 class="about-title">Introduction </h2>
           <p class="about-text">
             The ability to detect the presence of a disease causing pathogen is the first step in formulating the treatment and containment strategy. Traditional pathogen detection methods rely upon the identification of agents that are already known to be associated
             with a particular clinical syndrome. The emerging field of metagenomics has the potential to revolutionize pathogen detection by allowing the simultaneous detection of all microorganisms in a clinical sample through the use of next-generation
             DNA sequencing. Over the last 20 years, the scientific community has designed individual DNA-based molecular diagnostics tests for most diseases of interest.
+            Often times simple pathogen detection is not possible and scientists have to design test panels to detect different strains/types of a known disease.
+            Every single test in this pathogen screening panel can adversely interact with each other and create inaccurate results. Hundreds of thousands of potential interactions need to be monitored, evaluated, and optimized during the panel design process.
+            In short, the computational expertise needed to design such diagnostic tools is not always found in clinicians tasked with outbreak investigations.
+          </p>
+
+          <h2 class="about-title">Problem Overview </h2>
+          <p class="about-text">
+            The Fofanov Lab at Northern Arizona University, has designed and implemented a software application that automatically reviews the possible interactions that arise during panel creations, scores the quality of potential panels and generally helps the user design a better diagnostic panel.
+            This application has been widely used by researchers at NAU, but because of the Command Line Interface the application is not truly appealing to the larger biology community.<br>
+          </p>
+
+          <h2 class="about-title">Solution</h2>
+
+          <p class="about-text">
+            To ensure that this software is widely available to users of varying technical expertise, Dr. Fofanov and Dr. Furstenau decided to task our team with the implementation of
+            <strong> Graphical User Interface </strong> for this application. This GUI will create a more intuitive user interface which will eliminate the challenges faced by non-technical
+            users when using a command line based application.
           </p>
 
         </div>
-          <!-- <div class="col-lg-4 about-img">
-            <img src="assets/images/info-img.jpg" alt="Temporary">
-          </div> -->
         </div>
 
-
-
-      <br>
-      <br>
-      <br>
-      <br> #TODO- Change Spacing
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Client Information</h3>
@@ -139,11 +148,33 @@
 
       <div class="container about-container wow fadeInUp">
         <div class="row">
+          <div class="col-lg-7 about-content">
+
           <h2 class="about-title">The Fofanov Bioinformatics Lab </h2>
           <p class="about-text">
             <strong>The Fofanov Lab</strong> is part of The School of Informatics, Computing, and Cyber Systems (SICCS) at Northern Arizona University.
           The lab's primary area of research is in Bioinformatics. To learn more click <a href="http://www.fofanovlab.us/index.php?view=home" target="_blank"> here </a>.
           </p>
+          <div class="col-lg-6">
+          <div class="member">
+            <div class="pic"><img src="assets/images/slava.png" alt="slava_pic"></div>
+            <h4>Viacheslav Fofanov, Ph.D.</h4>
+            <span>Primary Contact</span>
+            </div>
+
+
+
+          </div>
+          <div class="col-lg-6">
+          <div class="member">
+            <div class="pic"><img src="assets/images/tara.jpg" alt="tara_pic"></div>
+            <h4>Tara Furstenau</h4>
+            <span>Pipeline Developer</span>
+            </div>
+
+
+          </div>
+        </div>
 
           <div class="col-lg-5 about-content">
             <figure>
@@ -180,7 +211,7 @@
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-desktop"></i></div>
           <h4 class="service-title"><a>Cross Platform</a></h4>
-          <p class="service-description">Compatible with Mac, Linux and Windows.</p>
+          <p class="service-description">Compatible with Mac, Linux and Windows</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-user"></i></div>
@@ -201,7 +232,7 @@
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-fast-backward"></i></div>
           <h4 class="service-title"><a>Reversible</a></h4>
-          <p class="service-description">Ability to go back and forth between stages</p>
+          <p class="service-description">Ability to go back and forth between analysis stages</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-smile-o"></i></div>
@@ -244,7 +275,7 @@
         <div class="col-md-12">
           <h3 class="section-title">Gallery</h3>
           <div class="section-title-divider"></div>
-          <!-- <p class="section-description">Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse</p> -->
+          <p class="section-description">This section will contain screenshots and other figures related to our GUI. Pictures below server as placeholders.</p>
         </div>
       </div>
 
@@ -261,7 +292,7 @@
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(assets/images/gallery.jpg);" >
             <div class="details">
-              <h4>Gallery Example </h4>
+              <h4>  </h4>
               <span>#Description</span>
             </div>
           </a>
@@ -299,14 +330,18 @@
         <div class="row">
           <div class="col-md-3">
             <h2 class="section-subtitle"> Task Reports </h2>
+            <center>
             <li><a href="assets/documents/task_reports/task_report_1.pdf">Task Report #1</a></li>
             <li><a href="assets/documents/task_reports/task_report_2.pdf">Task Report #2</a></li>
             <li><a href="assets/documents/task_reports/task_report_3.pdf">Task Report #3</a></li>
+          </center>
             </div>
 
             <div class="col-md-3">
               <h2 class="section-subtitle"> Presentations </h2>
+              <center>
               <li><a href="assets/documents/presentations/intro_presentation.pdf">Intro Presentation</a></li>
+            </center>
 
               </div>
 
@@ -317,8 +352,10 @@
 
                 <div class="col-md-3">
                   <h2 class="section-subtitle"> Misc </h2>
+                  <center>
                   <li><a href="assets/documents/misc/Team_Inventory.pdf">Team Inventory</a></li>
                   <li><a href="assets/documents/misc/Team_Standards.pdf">Team Standards</a></li>
+                </center>
 
 
 
